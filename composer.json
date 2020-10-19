@@ -1,0 +1,21 @@
+{
+    "name": "yydick/exception",
+    "description": "Exception for Spool",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yydick Chen",
+            "email": "yydick@sohu.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spool\\Exception\\": "src/"
+        }
+    }
+}
