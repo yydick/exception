@@ -16,6 +16,8 @@
 
 namespace Spool\Exception;
 
+use \Exception;
+
 /**
  * Spool 通用异常处理
  * 
@@ -29,16 +31,16 @@ namespace Spool\Exception;
  * @license  https://spdx.org/licenses/Apache-2.0.html Apache-2.0
  * @link     http://url.com
  */
-class CliException
+class SpoolException extends Exception
 {
     /**
-     * 异常处理头
+     * 异常信息渲染
      * 
      * @param \Exception $exp 捕获的异常
      * 
      * @return void
      */
-    public function handler(\Exception $exp): void
+    public function render(\Exception $exp)
     {
     }
 }
