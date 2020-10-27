@@ -43,4 +43,16 @@ class SpoolException extends Exception
     public function render(\Exception $exp)
     {
     }
+    /**
+     * 失败了
+     * 
+     * @param string $msg  出错信息
+     * @param int    $code 出错编号
+     * 
+     * @return void
+     */
+    public function failed(string $msg = '', int $code = 0): void
+    {
+        throw new \Exception($msg, $code);
+    }
 }

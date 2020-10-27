@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b108788a64ff5e06f28e5beeb6a7736",
+    "content-hash": "c554dd76f0ae929815615e75a7f15fb1",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -2165,6 +2165,51 @@
                 "validate"
             ],
             "time": "2020-07-08T17:02:28+00:00"
+        },
+        {
+            "name": "yydick/peas-log",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yydick/PeasLog.git",
+                "reference": "26d1e737da1ab5269b719f6a3d04cc2f3eafc43e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yydick/PeasLog/zipball/26d1e737da1ab5269b719f6a3d04cc2f3eafc43e",
+                "reference": "26d1e737da1ab5269b719f6a3d04cc2f3eafc43e",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spool\\PeasLog\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "PHP-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "yydick",
+                    "email": "yydick@sohu.com"
+                }
+            ],
+            "description": "SeasLog for PHP",
+            "time": "2020-06-08T13:53:10+00:00"
         }
     ],
     "packages-dev": [],
@@ -2173,7 +2218,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.1.0"
+    },
     "platform-dev": [],
     "plugin-api-version": "1.1.0"
 }
