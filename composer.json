@@ -12,7 +12,7 @@
     "require": {
         "php": ">=7.1.0",
         "phpunit/phpunit": "^9.4",
-        "yydick/peas-log": "^0.0.1"
+        "yydick/peas-log": "dev-master"
     },
     "autoload": {
         "psr-4": {
